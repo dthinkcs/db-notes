@@ -1,0 +1,13 @@
+id |  song_name            | duration  | artist       | album 
+1     Beautiful              3:40        Snoop Dogg     Paid tha Cost to Be da Boss
+2     Hangover               4:21        Snopp Dogg     Paid tha Cost to Be da Boss
+3     Professional Rapper    3:25        Snopp Dogg     Paid tha Cost to Be da Boss
+4     Faded                  3:32        Alan Walker    Different World
+5     The Spectre            3:16        Alan Walker    Different World
+6     Alone                  2:43        Alan Walker    Different World
+7     Despacito              4:41        Luis Fonsi     Via
+
+Redundancy: ROOT OF ALL THESE PROBLEMS Repetion of the same data (DRY)
+Insertion Anomaly: If you want to sign Rishabh Jaiswal as a brand new artist with no songs till now then you can't
+Deletion Anomaly: If you delete entry 7, then you have lost information about Luis Fonsi (converse of Insertion Anomaly)
+Updation Anomaly: If you update Snopp Dogg To Snoopp Lion, but you don't do it everywhere, then data inconsistency
